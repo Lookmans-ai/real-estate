@@ -19,7 +19,7 @@ export default function Headers() {
             placeholder="Search..."
             className="bg-transparent focus:outline-none w-24 sm:w-64"
           />
-          <FaSearch className="text-gray-400" />
+          <FaSearch className="text-gray-400 cursor-pointer" />
         </form>
         <ul className="flex gap-4">
           <Link to="/">
