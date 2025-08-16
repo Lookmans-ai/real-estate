@@ -5,3 +5,21 @@
 body {
   background-color: #f8fafc;
 }
+
+.loading {
+  display: block !important;
+}
+
+.alert {
+  border: 0.1rem #f0c1c2 solid;
+  background-color: #f0c1c2;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #d34a4f;
+}
+
+.alert.danger {
+  border: 0.1rem #f0c1c2 solid;
+  background-color: #f0c1c2;
+  color: #d34a4f;
+}
